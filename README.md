@@ -9,7 +9,7 @@ I have furthermore created a set of unit tests to cover the various different sc
 
 A few words on design decisions on routes I chose not to take
 * I've chosen not to add Roll as a class, as I thought the class itself would become too simple, and thus introducing more complexity than gaining. A list of integers 'rolls' has taken a place in its stead which recides in Frame.
-* The 10th Frame is different from all the other frames in that if we get a strike or a spare we'll get a 3rd roll. I could have chosen to split the first 9 frames and the last frame into different classes, using the same interface, or go some polymorphic route. But again I thought the simplicity of introducing 2 more methods "IsLastFrame" and "NeedThirdRollForBonus" to Frame far outweighed the complexity I would need to introduce.   
+* The 10th Frame is different from all the other frames in that if we get a strike or a spare we'll get a 3rd roll. I could have chosen to split the first 9 frames and the last frame into different classes, using the same interface, or go some polymorphic route. But again I thought the simplicity of introducing 2 more methods "IsLastFrame" and "NeedThirdRollForBonus" to Frame far outweighed the complexity I would need to introduce, while still keeping the single-responsibility of the Frame class.   
  
 # Assumptions
 I have chosen only to do simple integer validation on amount of pins knocked, as you can't knock down more pins than physically exists in a game of bowling.

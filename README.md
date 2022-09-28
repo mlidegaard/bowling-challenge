@@ -16,5 +16,5 @@ I have chosen only to do simple integer validation on amount of pins knocked, as
 
 # How to run the program
 The program is a console application. To run it either:
-1) Open the solution in favourite .NET IDE and run the program
+1) Open the solution in your favourite .NET IDE and run the program
 2) Navigate to the folder bowling-challenge/bin/Release/net6.0 and run bowling-challenge.exe

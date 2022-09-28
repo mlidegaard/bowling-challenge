@@ -1,0 +1,8 @@
+bowling-challenge-tests/obj/
+/bowling-challenge/bin/Debug/net6.0
+/bowling-challenge/obj
+/.vs
+/bowling-challenge-tests/bin/Debug/net6.0
+/bowling-challenge-tests/bin/Release/net6.0/CoverletSourceRootsMapping
+/bowling-challenge/Properties/PublishProfiles
+/bowling-challenge/bowling-challenge.csproj.user

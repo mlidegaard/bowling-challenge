@@ -15,6 +15,6 @@ A few words on design decisions on routes I chose not to take
 I have chosen only to do simple integer validation on amount of pins knocked, as you can't knock down more pins than physically exists in a game of bowling.
 
 # How to run the program
-The program is a console application. To run it either:
+The program is a console application. To run it clone the project and either:
 1) Open the solution in your favourite .NET IDE and run the program
 2) Navigate to the folder bowling-challenge/bin/Release/net6.0 and run bowling-challenge.exe
